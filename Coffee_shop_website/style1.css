@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+}
+
+.topnav {
+    background-color: #8e5b44;
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 99.2%;
+    position: fixed;
+}
+
+.topnav p {
+    color: whitesmoke;
+    margin: 0;
+    padding: 10px 0;
+    padding-right: 25;
+    font-size: 35px;
+}
+
+
+.topnav a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 5px;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: #643d2a;
+    color: white;
+
+}
+
+.topnav a.active {
+    background-color: #643d2a;
+
+}
+
+.main_image {
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+}
+
+.centered_lower {
+    position: absolute;
+    top: 55%;
+    left: 14%;
+    transform: translate(-60%, 0%);
+    font-size: 20px;
+}
+
+.centered_lower_image {
+    position: absolute;
+    top: 60%;
+    left: 4.5%;
+    transform: translate(-60%, 0%);
+
+}
+
+ul {
+    list-style: none;
+}
+
+.coffee_list {
+    margin-left: 65px;
+    margin-bottom: 30px;
+    padding: 10;
+    border-radius: 10px;
+    background-color: #baada75c;
+    box-shadow: 0 2px 5px black;
+    /* text-align: left; */
+    display: inline-block;
+    width: 85%;
+}
+.coffee_list img{
+    margin-top: 20px;
+    float: right;
+}
+
+
+
+.coffee_list h3{
+    color: #5d3a29;
+}
+
+.coffee_list p{
+    
+    color: rgb(129, 74, 20);
+}
+.heading{
+    color: #5d3a29;
+    font-size: 40px;
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#contact{
+    margin: auto;
+    background-color: #baada75c;
+    padding-left: 15px;
+    padding: 15px;
+}  
+
+.select_coffee{
+    
+    background-color: #e0dbd9;
+    border-radius: 10px;
+    margin-left: 95px;
+    margin-bottom: 30px;
+    padding: 10;
+    width: 85%;
+    box-shadow: 0 2px 5px black;
+
+}
+.select_coffee select{
+    background-color: #e0dbd9;
+    margin-left: 800px;
+    margin-right: 0px;
+    font-size: 21px;
+    color: #814a14;
+    border: solid 0.1px #5d3a29;
+   
+
+}
+.select_coffee th{
+    font-size: 25px;
+    color: #5d3a29;
+    padding: 10px
+}

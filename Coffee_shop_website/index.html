@@ -1,0 +1,108 @@
+<!-- Create an HTML script for Coffee: shop online web content utilizing HTML 
+tags and CSS capabilities. Use a coffee cup and relevant images to enhance the 
+presentation. Provide a coffee type selection option, as well as a rate for the 
+coffee type pick. Tables should be used whenever possible -->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Assignment 2a</title>
+    <link rel="stylesheet" href="style1.css">
+
+
+</head>
+
+<body>
+    <div class="main_image">
+        <div class="topnav">
+            <p>Coffee Shop</p>
+            <div>
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Contact</a>
+                <a href="#contact">About</a>
+            </div>
+        </div>
+        <div id= home>
+            <img src="coffeebeans.jpg" alt="backgroundimage" width="1394px" height="651px" margin-top=30px>
+        </div>
+        <div class="centered">COFFEE</div>
+        <div>
+            <a href="#contact"><img class="centered_lower_image" width="20" height="20"
+                    src="https://img.icons8.com/ios/50/FFFFFF/instagram-new--v1.png" alt="instagram-new--v1" /></a>
+        </div>
+    </div>
+    <div id="menu">
+        <h3 class="heading">OUR MENU</h3>
+        <ul>
+            <li class="coffee_list">
+                <a href=""><img class = "img" src="espresso.png" alt="" width="90" height="90"></a>
+                <h3>Espresso @99/-</h3>
+                <p>A concentrated shot of coffee served in a small cup.</p>
+            </li >
+            <li class = "coffee_list">
+                <a href=""><img class = "img" src="capu.png" alt="" width="90" height="90"></a>
+                <h3>Cappuccino @99/-</h3>
+                <p>Espresso with steamed milk and a layer of frothed milk on top.</p>
+            </li>
+            <li class = "coffee_list">
+                <a href=""><img class = "img" src="latte.png" alt="" width="100" height="90"></a>
+                <h3>Latte @99/-</h3>
+                <p>Espresso with steamed milk and a small amount of frothed milk.</p>
+            </li>
+            <li class = "coffee_list">
+                <a href=""><img class = "img" src="americano.png" alt="" width="90" height="90"></a>
+                <h3>Americano @99/-</h3>
+                <p>Espresso diluted with hot water.</p>
+            </li>
+            <li class = "coffee_list">
+                <a href=""><img class = "img" src="mocha.png" alt="" width="90" height="90"></a>
+                <h3>Mocha @99/-</h3>
+                <p>Espresso with steamed milk, chocolate syrup, and topped with whipped cream.</p>
+            </li>
+            <li class = "coffee_list">
+                <a href=""><img class = "img" src="Macchiato.png" alt="" width="90" height="90"></a>
+                <h3>Macchiato @99/-</h3>
+                <p>Espresso with a small amount of foamed milk.</p>
+            </li>
+        </ul>
+    </div>
+
+    <div id="selection" class="select_coffee">
+        <table>
+            <tr>
+                <th>
+                    Select Coffee:  
+                </th>
+                <th>
+                    <select>
+                        <option value="0">Espresso</option>
+                        <option value="1">Cappuccino</option>
+                        <option value="2">Latte</option>
+                        <option value="3">Americano</option>
+                        <option value="4">Mocha</option>
+                        <option value="5">Macchiato</option>
+                    </select>
+                </th>
+
+            </tr>
+        </table>
+    </div>
+
+    <div id="contact">
+        <h3>Contact us:</h3>
+        <p>
+            Email: emailid@coffeeshop.com
+        </p>
+        <p>
+            Instagram: @coffeeshop
+        </p>
+
+    </div>
+
+
+</body>
+
+</html>
